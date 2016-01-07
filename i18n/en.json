@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": ["Aravind Sai V", "Keerthana Balakrishnan", "Kashmi Abdulkareem", "Rahul VK","Mubashira N"]
+	},
+
+	"ultimatecleaner" : "Ultimate Cleaner",
+	"UltmateCleaner-spam-pages-list-heading" : "Possible spam pages",
+"UltimateCleaner-deleted-reason": "Identified as spam by the UltimateCleaner extension."
+}
