@@ -4,6 +4,7 @@
 	},
 
 	"ultimatecleaner" : "Ultimate Cleaner",
-	"UltmateCleaner-spam-pages-list-heading" : "Possible spam pages",
-"UltimateCleaner-deleted-reason": "Identified as spam by the UltimateCleaner extension."
+	"ultimatecleaner-spam-pages-list-heading" : "Possible spam pages",
+	"ultimatecleaner-view-trusted-users" : "View trusted users",
+	"ultimatecleaner-deleted-reason" : "Identified as spam by the UltimateCleaner extension."
 }

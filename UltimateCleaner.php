@@ -25,18 +25,20 @@ $wgExtensionCredits['antispam'][] = array(
 $dir = dirname( __FILE__ );
 $dirbasename = basename( $dir );
 
-// Permissions
-$wgAvailableRights[] = 'ultimatecleaner';
-$wgGroupPermissions['*']['ultimatecleaner'] = true;
-
 // Localisation Directories
 $wgMessagesDirs['UltimateCleaner'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UltimateCleanerAlias'] = $dir . '/UltimateCleaner.i18n.alias.php';
 
 
 $wgSpecialPages['UltimateCleaner'] = 'SpecialUltimateCleaner';
+$wgSpecialPages['UltimateCleanerTrustedUsers'] = 'UltimateCleanerTrustedUsers';
 
 $wgAutoloadClasses['SpecialUltimateCleaner'] = $dir . '/special/SpecialUltimateCleaner.php';
+$wgAutoloadClasses['UltimateCleanerTrustedUsers'] = $dir . '/special/UltimateCleanerTrustedUsers.php';
+
+// Permissions
+$wgAvailableRights[] = 'ultimatecleaner';
+$wgGroupPermissions['*']['ultimatecleaner'] = true;
 
 $wgResourceModules['ext.UltimateCleaner.retriever'] = array(
 	'scripts' => 'js/ext.UltimateCleaner.js',
