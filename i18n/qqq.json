@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": ["Aravind Sai V", "Keerthana Balakrishnan", "Kashmi Abdulkareem", "Rahul VK","Mubashira N"]
+	},
+
+	"ultimatecleaner" : "Display for main Heading.",
+	"ultimatecleaner-spam-pages-list-heading" : "Heading for the list that shows the pages that are spam.",
+	"ultimatecleaner-view-trusted-users" : "Hyperlink to the trusted users special page.",
+}
