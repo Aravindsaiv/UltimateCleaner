@@ -33,12 +33,15 @@ $wgExtensionMessagesFiles['UltimateCleanerAlias'] = $dir . '/UltimateCleaner.i18
 $wgSpecialPages['UltimateCleaner'] = 'SpecialUltimateCleaner';
 $wgSpecialPages['UltimateCleanerTrustedUsers'] = 'UltimateCleanerTrustedUsers';
 
+
 $wgAutoloadClasses['SpecialUltimateCleaner'] = $dir . '/special/SpecialUltimateCleaner.php';
 $wgAutoloadClasses['UltimateCleanerTrustedUsers'] = $dir . '/special/UltimateCleanerTrustedUsers.php';
+$wgAutoloadClasses['UltimateCleanerTokenizer'] = $dir . '/includes/UltimateCleanerTokenizer.php';
 
 // Permissions
 $wgAvailableRights[] = 'ultimatecleaner';
 $wgGroupPermissions['*']['ultimatecleaner'] = true;
+
 
 $wgResourceModules['ext.UltimateCleaner.retriever'] = array(
 	'scripts' => 'js/ext.UltimateCleaner.js',
